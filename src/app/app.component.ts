@@ -13,6 +13,11 @@ export class AppComponent {
     { title: 'Trash', url: '/folder/trash', icon: 'trash' },
     { title: 'Spam', url: '/folder/spam', icon: 'warning' },
   ];
+  public pdfModules = [
+    { title: 'Pdf Viewer', url: '/folder/pdfviewer', icon: 'mail' },
+    { title: 'Pdf Make', url: '/folder/pdfviewer2', icon: 'mail' },
+    
+  ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}
 }
